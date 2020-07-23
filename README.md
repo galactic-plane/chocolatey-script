@@ -38,6 +38,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Run in bash:
 ```bash
+$ cd chocolatey-script
 $ chmod +x baseline.bat
 $ ./baseline.bat
 ```
