@@ -8,9 +8,14 @@ A simple script using the chocolatey package manager to install/update software 
 
 # Directions
 
-    1.  Run the setup script once (Source: https://chocolatey.org/install)
+    1.  Run the setup script once
     2.  Review "baseline.bat" as a guide for creating your own package manager "BAT" file.
-    3.  Find your own packages here: https://chocolatey.org/packages
+    3.  Find your own packages
+
+Initial Setup: https://chocolatey.org/install
+
+Find: https://chocolatey.org/packages
+
 
 # Setup Script
 Run powershell as an administrator and run the following once:
@@ -42,3 +47,7 @@ $ cd chocolatey-script
 $ chmod +x baseline.bat
 $ ./baseline.bat
 ```
+
+# More Information
+
+https://penrodtech.wixsite.com/blog/post/chocolatey-package-manager
