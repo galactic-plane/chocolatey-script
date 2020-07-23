@@ -1,41 +1,3 @@
-![Chocolatey Image](chocolatey-media.png)
-
----
-
-# Chocolatey Script (Windows Packagage Manager)
-A simple script using the chocolatey package manager to install/update software I use on my development workstation
-
-# Directions
-
-    1.  Run the setup script once (Source: https://chocolatey.org/install)
-    2.  Find packages here: https://chocolatey.org/packages
-    3.  Use the below "Usage" information as a guide for creating your own package manager "BAT" file.
-
-# Setup Script
-Run powershell as an administrator and run the following once:
-```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-```
-# Usage Example
-The following commands install or update:
-
-    * Node.js
-    * VSCode
-    * Visual Studio 2019
-    * Dot Net Core SDK
-    * Skype
-    * Notepad++
-    * Microsoft Teams
-    * OBS Studio
-    * Firefox
-    * VLC
-    * CCleaner
-    * CPU-Z
-    * Git
-    * Steam
-    * Chocolatey
-
-```cmd
 @ECHO OFF 
 ECHO ============================
 ECHO Chocolatey Updater
@@ -80,4 +42,3 @@ choco upgrade cpu-z -y
 choco upgrade git -y
 choco upgrade steam -y
 choco upgrade chocolatey -y
-```
