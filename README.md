@@ -9,7 +9,7 @@ A simple script using the chocolatey package manager to install/update software 
 # Directions
 
     1.  Run the setup script once
-    2.  Review "baseline.bat" as a guide for creating your own package manager "BAT" file.
+    2.  Review "baseline.bat" as a guide for creating your own package manager "BAT" file
     3.  Find your own packages
 
 Initial Setup: https://chocolatey.org/install
@@ -51,3 +51,5 @@ $ ./baseline.bat
 # More Information
 
 https://penrodtech.wixsite.com/blog/post/chocolatey-package-manager
+
+https://chocolatey.org/
