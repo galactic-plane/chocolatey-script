@@ -1,4 +1,4 @@
-![Chocolatey Image](/chocolatey-script/chocolatey-media.png)
+![Chocolatey Image](chocolatey-media.png)
 
 ---
 
