@@ -9,8 +9,8 @@ A simple script using the chocolatey package manager to install/update software 
 # Directions
 
     1.  Run the setup script once (Source: https://chocolatey.org/install)
-    2.  Find packages here: https://chocolatey.org/packages
-    3.  Use the below "Usage" information as a guide for creating your own package manager "BAT" file.
+    2.  Review "baseline.bat" as a guide for creating your own package manager "BAT" file.
+    3.  Find your own packages here: https://chocolatey.org/packages
 
 # Setup Script
 Run powershell as an administrator and run the following once:
