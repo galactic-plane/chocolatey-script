@@ -24,22 +24,26 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 # Usage Example
 "baseline.bat" installs or updates:
-
-    * Node.js
-    * VSCode
-    * Visual Studio 2019
-    * Dot Net Core SDK
-    * Skype
-    * Notepad++
-    * Microsoft Teams
-    * OBS Studio
-    * Firefox
-    * VLC
-    * CCleaner
-    * CPU-Z
-    * Git
-    * Steam
-    * Chocolatey
+```bash
+choco upgrade libreoffice-fresh -y
+choco upgrade nodejs -y
+choco upgrade vscode -y
+choco upgrade visualstudio2019community -y
+choco upgrade dotnetcore-sdk -y
+choco upgrade skype -y
+choco upgrade notepadplusplus -y
+choco upgrade microsoft-teams -y
+choco upgrade obs-studio -y
+choco upgrade microsoft-edge -y
+choco upgrade googlechrome -y
+choco upgrade firefox -y
+choco upgrade vlc -y
+choco upgrade ccleaner -y
+choco upgrade cpu-z -y
+choco upgrade git -y
+choco upgrade steam -y
+choco upgrade chocolatey -y
+```
 
 Run in bash:
 ```bash
