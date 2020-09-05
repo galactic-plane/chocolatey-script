@@ -45,4 +45,5 @@ choco upgrade ccleaner -y
 choco upgrade cpu-z -y
 choco upgrade git -y
 choco upgrade steam -y
+choco upgrade audacity -y
 choco upgrade chocolatey -y
