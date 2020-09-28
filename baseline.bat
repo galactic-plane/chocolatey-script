@@ -31,8 +31,12 @@ choco upgrade libreoffice-fresh -y
 choco upgrade 7zip -y
 choco upgrade nodejs -y
 choco upgrade vscode -y
-choco upgrade visualstudio2019community -y
 choco upgrade dotnetcore-sdk -y
+choco upgrade git -y
+choco upgrade yarn -y
+choco upgrade sql-server-express -y
+choco upgrade azure-data-studio -y
+choco upgrade visualstudio2019community -y
 choco upgrade skype -y
 choco upgrade notepadplusplus -y
 choco upgrade microsoft-teams -y
@@ -43,7 +47,6 @@ choco upgrade firefox -y
 choco upgrade vlc -y
 choco upgrade ccleaner -y
 choco upgrade cpu-z -y
-choco upgrade git -y
 choco upgrade steam -y
 choco upgrade audacity -y
 choco upgrade chocolatey -y
