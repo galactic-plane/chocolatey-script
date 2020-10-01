@@ -2,8 +2,10 @@
 
 ---
 
-# Chocolatey Script 
+# Chocolatey Script
+
 ## Windows Package Manager
+
 A simple script using the chocolatey package manager to install/update software I use on my development workstation
 
 # Directions
@@ -16,14 +18,18 @@ Initial Setup: https://chocolatey.org/install
 
 Find: https://chocolatey.org/packages
 
-
 # Setup Script
+
 Run powershell as an administrator and run the following once:
+
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
+
 # Usage Example
+
 "baseline.bat" installs or updates:
+
 ```bash
 choco upgrade libreoffice-fresh -y
 choco upgrade 7zip -y
@@ -33,6 +39,7 @@ choco upgrade dotnetcore-sdk -y
 choco upgrade git -y
 choco upgrade yarn -y
 choco upgrade gh -y
+choco upgrade rust -y
 choco upgrade sql-server-express -y
 choco upgrade azure-data-studio -y
 choco upgrade visualstudio2019community -y
@@ -52,6 +59,7 @@ choco upgrade chocolatey -y
 ```
 
 Run in bash:
+
 ```bash
 $ cd chocolatey-script
 $ chmod +x baseline.bat

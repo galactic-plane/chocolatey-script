@@ -35,6 +35,7 @@ choco upgrade dotnetcore-sdk -y
 choco upgrade git -y
 choco upgrade yarn -y
 choco upgrade gh -y
+choco upgrade rust -y
 choco upgrade sql-server-express -y
 choco upgrade azure-data-studio -y
 choco upgrade visualstudio2019community -y
