@@ -31,7 +31,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 "baseline.bat" installs or updates:
 
 ```bash
-choco upgrade libreoffice-fresh -y
 choco upgrade 7zip -y
 choco upgrade nodejs -y
 choco upgrade vscode -y

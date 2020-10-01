@@ -27,7 +27,6 @@ ipconfig | findstr IPv6
 ECHO ============================
 ECHO UPDATES
 ECHO ============================
-choco upgrade libreoffice-fresh -y
 choco upgrade 7zip -y
 choco upgrade nodejs -y
 choco upgrade vscode -y
