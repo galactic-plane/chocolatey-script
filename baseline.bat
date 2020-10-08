@@ -29,11 +29,12 @@ ECHO UPDATES
 ECHO ============================
 choco upgrade 7zip -y
 choco upgrade nodejs -y
+choco upgrade bower -y
+choco upgrade yarn -y
+choco upgrade git -y
+choco upgrade gh -y
 choco upgrade vscode -y
 choco upgrade dotnetcore-sdk -y
-choco upgrade git -y
-choco upgrade yarn -y
-choco upgrade gh -y
 choco upgrade rust -y
 choco upgrade sql-server-express -y
 choco upgrade azure-data-studio -y
