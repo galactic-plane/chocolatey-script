@@ -37,12 +37,12 @@ choco upgrade bower -y
 choco upgrade yarn -y
 choco upgrade git -y
 choco upgrade gh -y
+choco upgrade visualstudio2019enterprise -y
 choco upgrade vscode -y
 choco upgrade dotnetcore-sdk -y
 choco upgrade rust -y
 choco upgrade sql-server-express -y
 choco upgrade azure-data-studio -y
-choco upgrade visualstudio2019community -y
 choco upgrade skype -y
 choco upgrade notepadplusplus -y
 choco upgrade microsoft-teams -y
@@ -62,8 +62,15 @@ Run in bash:
 
 ```bash
 $ cd chocolatey-script
-$ chmod +x baseline.bat
-$ ./baseline.bat
+$ chmod +x baseline.cmd
+$ ./baseline.cmd
+```
+
+After Baseline Run Once in PowerShell (Installs VSCode Extentions):
+
+```powershell
+$ cd chocolatey-script\VSCode
+$ .\vscodeExtentions.ps1
 ```
 
 # More Information
