@@ -71,8 +71,6 @@ choco upgrade ccleaner -y
 choco upgrade cpu-z -y
 choco upgrade steam -y
 choco upgrade grammarly -y
-:: Security
-choco upgrade malwarebytes -y
 :: Chocolatey
 choco upgrade chocolatey -y
 ```
