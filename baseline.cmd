@@ -63,6 +63,7 @@ choco upgrade zoom -y
 choco upgrade obs-studio -y
 choco upgrade vlc -y
 :: Utilities
+choco upgrade rufus -y
 choco upgrade ccleaner -y
 choco upgrade cpu-z -y
 choco upgrade steam -y
