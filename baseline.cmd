@@ -29,6 +29,7 @@ ECHO UPDATES
 ECHO ============================
 :: Developer Updates
 choco upgrade nodejs -y
+choco upgrade python -y
 choco upgrade bower -y
 choco upgrade yarn -y
 choco upgrade git -y
@@ -68,5 +69,6 @@ choco upgrade ccleaner -y
 choco upgrade cpu-z -y
 choco upgrade steam -y
 choco upgrade grammarly -y
+choco upgrade choco-cleaner -y
 :: Chocolatey
 choco upgrade chocolatey -y
