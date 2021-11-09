@@ -28,29 +28,21 @@ ECHO ============================
 ECHO UPDATES
 ECHO ============================
 :: Developer Updates
-choco upgrade nodejs -y
 choco upgrade python -y
-choco upgrade bower -y
 choco upgrade yarn -y
 choco upgrade git -y
 choco upgrade gh -y
 choco upgrade microsoft-edge -y
 choco upgrade googlechrome -y
 choco upgrade firefox -y
-choco upgrade visualstudio2019enterprise -y
 choco upgrade visualstudio2019buildtools -y
-choco upgrade sql-server-express -y
 choco upgrade vscode -y
-choco upgrade dotnetcore-sdk -y
 choco upgrade azure-cli -y
 choco upgrade microsoftazurestorageexplorer -y
 choco upgrade azure-functions-core-tools -y
 choco upgrade azurepowershell -y
 choco upgrade azure-data-studio -y
-choco upgrade rust -y
 choco upgrade docker-desktop -y
-choco upgrade robo3t -y
-choco upgrade mongodb -y
 choco upgrade filezilla -y
 choco upgrade 7zip -y
 choco upgrade notepadplusplus -y
