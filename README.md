@@ -39,7 +39,6 @@ choco upgrade gh -y
 choco upgrade microsoft-edge -y
 choco upgrade googlechrome -y
 choco upgrade firefox -y
-choco upgrade visualstudio2019buildtools -y
 choco upgrade vscode -y
 choco upgrade azure-cli -y
 choco upgrade microsoftazurestorageexplorer -y
