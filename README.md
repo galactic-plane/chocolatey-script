@@ -86,6 +86,4 @@ $ .\vscodeExtentions.ps1
 
 # More Information
 
-https://www.penrodtech.org/post/chocolatey-package-manager
-
 https://chocolatey.org/
